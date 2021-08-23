@@ -1,6 +1,6 @@
 {
   "name": "@dhmk/cell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lightweight glitch-free observable values, computed values and side-effects",
   "keywords": [
     "observable",
