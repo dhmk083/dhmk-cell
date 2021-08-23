@@ -10,16 +10,17 @@
     "cell",
     "atom"
   ],
+  "license": "MIT",
   "repository": "github:dhmk083/dhmk-cell",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "module": "esm/index.js",
-  "license": "MIT",
-  "files": [
-    "lib"
-  ],
   "sideEffects": [
     "lib/carray.js"
+  ],
+  "files": [
+    "lib",
+    "esm"
   ],
   "scripts": {
     "preversion": "yarn test && yarn build",
